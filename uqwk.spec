@@ -3,14 +3,15 @@ Summary(pl):	uqwk tworzy paczki z poczt± i/lub newsami do czytania offline
 Name:		uqwk
 Version:	2.16
 Release:	1
+License:	GPL
 Group:		Networking/Utilities
 Group(de):	Netzwerkwesen/Werkzeuge
 Group(pl):	Sieciowe/Narzêdzia
-License:	GPL
 Source0:	http://www.xs4all.nl/~js/warez/%{name}-%{version}.tar.gz
 Source1:	%{name}-config_pld.h
 Patch0:		%{name}-no_libnsl.patch
 URL:		http://www.xs4all.nl/~js/warez
+BuildRequires:	autoconf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description

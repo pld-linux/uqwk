@@ -6,7 +6,9 @@ Release:	1
 License:	GPL
 Group:		Networking/Utilities
 Group(de):	Netzwerkwesen/Werkzeuge
+Group(es):	Red/Utilitarios
 Group(pl):	Sieciowe/Narzêdzia
+Group(pt_BR):	Rede/Utilitários
 Source0:	http://www.xs4all.nl/~js/warez/%{name}-%{version}.tar.gz
 Source1:	%{name}-config_pld.h
 Patch0:		%{name}-no_libnsl.patch

@@ -4,6 +4,7 @@ Name:		uqwk
 Version:	2.16
 Release:	1
 Group:		Networking/Utilities
+Group(de):	Netzwerkwesen/Werkzeuge
 Group(pl):	Sieciowe/Narzêdzia
 License:	GPL
 Source0:	http://www.xs4all.nl/~js/warez/%{name}-%{version}.tar.gz
@@ -29,7 +30,6 @@ ZipNews.
 install %{SOURCE1} config-pld.h
 
 %build
-LDFLAGS="-s" ; export LDFLAGS
 autoconf
 %configure --with-config=config-pld.h
 
@@ -41,8 +41,7 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 install uqwk $RPM_BUILD_ROOT%{_bindir}
 install uqwk.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
-gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man*/* \
-	README HISTORY FAQ README.Typhoon
+gzip -9nf README HISTORY FAQ README.Typhoon
 
 %clean
 rm -rf $RPM_BUILD_ROOT

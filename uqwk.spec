@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		Networking/Utilities
 Source0:	http://www.xs4all.nl/~js/warez/%{name}-%{version}.tar.gz
+# Source0-md5:	56845b6e5a1c79a52e2ae8a06853fc7c
 Source1:	%{name}-config_pld.h
 Patch0:		%{name}-no_libnsl.patch
 URL:		http://www.xs4all.nl/~js/warez/

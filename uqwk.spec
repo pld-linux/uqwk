@@ -42,13 +42,11 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 install uqwk $RPM_BUILD_ROOT%{_bindir}
 install uqwk.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
-gzip -9nf README HISTORY FAQ README.Typhoon
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc scripts {README,HISTORY,FAQ,README.Typhoon}.gz
+%doc scripts README HISTORY FAQ README.Typhoon
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man*/*

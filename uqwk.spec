@@ -2,7 +2,7 @@ Summary:	uqwk creates packages with mail and/or news for offline reading
 Summary(pl):	uqwk tworzy paczki z poczt± i/lub newsami do czytania offline
 Name:		uqwk
 Version:	2.21
-Release:	1
+Release:	2
 License:	GPL
 Group:		Networking/Utilities
 Source0:	http://www.xs4all.nl/~js/warez/%{name}-%{version}.tar.gz

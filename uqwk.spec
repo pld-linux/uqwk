@@ -8,7 +8,7 @@ Group:		Networking/Utilities
 Source0:	http://www.xs4all.nl/~js/warez/%{name}-%{version}.tar.gz
 Source1:	%{name}-config_pld.h
 Patch0:		%{name}-no_libnsl.patch
-URL:		http://www.xs4all.nl/~js/warez
+URL:		http://www.xs4all.nl/~js/warez/
 BuildRequires:	autoconf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -30,13 +30,15 @@ install %{SOURCE1} config-pld.h
 
 %build
 autoconf
-%configure --with-config=config-pld.h
+%configure \
+	--with-config=config-pld.h
 
 %{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
+
 install uqwk $RPM_BUILD_ROOT%{_bindir}
 install uqwk.1 $RPM_BUILD_ROOT%{_mandir}/man1
 

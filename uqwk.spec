@@ -29,7 +29,7 @@ ZipNews.
 install %{SOURCE1} config-pld.h
 
 %build
-autoconf
+%{__autoconf}
 %configure \
 	--with-config=config-pld.h
 

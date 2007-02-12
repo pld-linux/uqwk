@@ -1,5 +1,5 @@
 Summary:	uqwk creates packages with mail and/or news for offline reading
-Summary(pl.UTF-8):   uqwk tworzy paczki z pocztą i/lub newsami do czytania offline
+Summary(pl.UTF-8):	uqwk tworzy paczki z pocztą i/lub newsami do czytania offline
 Name:		uqwk
 Version:	2.21
 Release:	2

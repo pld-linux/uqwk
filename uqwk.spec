@@ -1,5 +1,5 @@
 Summary:	uqwk creates packages with mail and/or news for offline reading
-Summary(pl):	uqwk tworzy paczki z poczt± i/lub newsami do czytania offline
+Summary(pl.UTF-8):   uqwk tworzy paczki z pocztÄ… i/lub newsami do czytania offline
 Name:		uqwk
 Version:	2.21
 Release:	2
@@ -18,10 +18,10 @@ uqwk is a program which collects all a user's unread mail or news and
 formats it into a packet for offline reading. QWK, Simple Offline
 Usenet Packet (SOUP), and ZipNews packet formats are supported.
 
-%description -l pl
-uqwk jest programem który zbiera ca³± nieprzeczytan± pocztê lub
-wiadomo¶ci usenetowe, i uk³ada je w pakiet do czytania offline.
-Obs³ugiwane s± formaty QWK, Simple Offline Usenet Packet (SOUP) i
+%description -l pl.UTF-8
+uqwk jest programem ktÃ³ry zbiera caÅ‚Ä… nieprzeczytanÄ… pocztÄ™ lub
+wiadomoÅ›ci usenetowe, i ukÅ‚ada je w pakiet do czytania offline.
+ObsÅ‚ugiwane sÄ… formaty QWK, Simple Offline Usenet Packet (SOUP) i
 ZipNews.
 
 %prep
